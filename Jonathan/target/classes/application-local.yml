@@ -1,0 +1,9 @@
+# configure server port
+server:
+  port: 8083
+  use-forward-headers: true
+
+logging:
+  config: classpath:log4j2-dev.properties
+
+
